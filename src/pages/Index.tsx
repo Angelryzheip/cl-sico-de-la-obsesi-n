@@ -45,7 +45,7 @@ const Index = () => {
           alt="Estadio de futbol iluminado en la noche"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[hsl(240,30%,96%)] via-[hsl(240,30%,96%)]/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[hsl(230,50%,12%)] via-[hsl(255,45%,16%)]/80 to-transparent" />
         <div className="absolute inset-0 flex items-end">
           <div className="container mx-auto px-4 pb-10 md:pb-16 max-w-4xl">
             <span className="inline-block gradient-fire text-primary-foreground font-bold text-xs md:text-sm uppercase tracking-widest px-3 py-1 rounded mb-4">
