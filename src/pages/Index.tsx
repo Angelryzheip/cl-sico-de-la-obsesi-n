@@ -45,10 +45,10 @@ const Index = () => {
           alt="Estadio de futbol iluminado en la noche"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[hsl(240,30%,96%)] via-[hsl(240,30%,96%)]/70 to-transparent" />
         <div className="absolute inset-0 flex items-end">
           <div className="container mx-auto px-4 pb-10 md:pb-16 max-w-4xl">
-            <span className="inline-block gradient-fire text-background font-bold text-xs md:text-sm uppercase tracking-widest px-3 py-1 rounded mb-4">
+            <span className="inline-block gradient-fire text-primary-foreground font-bold text-xs md:text-sm uppercase tracking-widest px-3 py-1 rounded mb-4">
               🔥 Liga MX — Clásico de la Obsesión
             </span>
             <h1 className="font-['Barlow_Condensed'] font-black text-4xl md:text-6xl lg:text-7xl uppercase leading-[0.95] mb-4">
@@ -136,11 +136,11 @@ const Index = () => {
         </section>
 
         {/* En juego */}
-        <section className="gradient-fire rounded-xl p-6 md:p-10">
-          <h2 className="font-['Barlow_Condensed'] font-black text-2xl md:text-3xl uppercase text-background mb-4">
+        <section className="gradient-fire rounded-xl p-6 md:p-10 text-primary-foreground">
+          <h2 className="font-['Barlow_Condensed'] font-black text-2xl md:text-3xl uppercase mb-4">
             🏆 Lo que está en juego
           </h2>
-          <p className="text-background/90 mb-4">
+          <p className="opacity-90 mb-4">
             Más allá de los puntos en la tabla, este encuentro representa orgullo, historia y rivalidad.
           </p>
           <ul className="space-y-2">
@@ -149,7 +149,7 @@ const Index = () => {
               "Dar un golpe anímico en el torneo",
               "Reforzar la confianza del equipo",
             ].map((item, i) => (
-              <li key={i} className="flex items-center gap-2 text-background font-semibold">
+              <li key={i} className="flex items-center gap-2 font-semibold">
                 <span>✓</span> {item}
               </li>
             ))}
