@@ -221,9 +221,9 @@ const Index = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-            { emoji: "⭐", text: "Los delanteros que puedan definir las jugadas clave" },
-            { emoji: "⭐", text: "Los mediocampistas encargados de manejar el ritmo" },
-            { emoji: "⭐", text: "Los porteros, que muchas veces terminan siendo figuras" }].
+            { emoji: "⭐", text: "Paradela - Cruz Azul\nRobert Morales - Pumas" },
+            { emoji: "⭐", text: "Adalberto Carrasquilla - Pumas\nCarlos Rodriguez - Cruz Azul\nPedro Vite - Pumas" },
+            { emoji: "⭐", text: "Keylor Navas - Pumas" }].
             map((item, i) =>
             <div key={i} className="bg-card border border-border rounded-lg p-5 text-center hover:border-primary transition-colors">
                 <span className="text-3xl block mb-3">{item.emoji}</span>
