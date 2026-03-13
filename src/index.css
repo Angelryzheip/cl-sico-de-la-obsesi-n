@@ -101,8 +101,10 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
     font-family: 'Barlow', 'Barlow Condensed', sans-serif;
+    background: linear-gradient(160deg, hsl(var(--bg-gradient-from)), hsl(var(--bg-gradient-via)), hsl(var(--bg-gradient-to)));
+    min-height: 100vh;
   }
 }
 
