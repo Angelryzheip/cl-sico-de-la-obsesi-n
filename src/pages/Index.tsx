@@ -115,6 +115,70 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Alineaciones */}
+        <section>
+          <SectionTitle>Posibles alineaciones</SectionTitle>
+          <div className="flex flex-col md:flex-row gap-4">
+            {/* Pumas */}
+            <div className="flex-1 rounded-lg overflow-hidden border border-border">
+              <div className="gradient-pumas p-4 text-center">
+                <span className="text-3xl">🐾</span>
+                <h3 className="font-['Barlow_Condensed'] font-black text-xl uppercase mt-1 text-foreground">Pumas UNAM</h3>
+                <span className="text-sm font-semibold text-foreground/70">4-4-2</span>
+              </div>
+              <div className="bg-card p-5 space-y-4">
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Portero</span>
+                  <p className="text-card-foreground mt-1">Keylor Navas</p>
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Defensas</span>
+                  <p className="text-card-foreground mt-1">Rodrigo López, Nathan Silva, Ángel Azuaje, Álvaro Angulo</p>
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Medios</span>
+                  <p className="text-card-foreground mt-1">Alan Medina, Adalberto Carrasquilla, Pedro Vite, Jordan Carrillo</p>
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Delanteros</span>
+                  <p className="text-card-foreground mt-1">Robert Morales, Juninho</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <span className="font-['Barlow_Condensed'] font-black text-3xl md:text-5xl text-primary">VS</span>
+            </div>
+
+            {/* Cruz Azul */}
+            <div className="flex-1 rounded-lg overflow-hidden border border-border">
+              <div className="gradient-cruzazul p-4 text-center">
+                <span className="text-3xl">🚂</span>
+                <h3 className="font-['Barlow_Condensed'] font-black text-xl uppercase mt-1 text-foreground">Cruz Azul</h3>
+                <span className="text-sm font-semibold text-foreground/70">3-4-3</span>
+              </div>
+              <div className="bg-card p-5 space-y-4">
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Portero</span>
+                  <p className="text-card-foreground mt-1">Andrés Gudiño</p>
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Defensas</span>
+                  <p className="text-card-foreground mt-1">Willer Ditta, Erik Lira, Gonzalo Piovi</p>
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Medios</span>
+                  <p className="text-card-foreground mt-1">Omar Campos, Carlos Rodríguez, Jeremy Márquez, Carlos Rotondi</p>
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary">Delanteros</span>
+                  <p className="text-card-foreground mt-1">José Paradela, Nicolás Ibáñez, Agustín Palavecino</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Jugadores */}
         <section>
           <SectionTitle>Jugadores a seguir</SectionTitle>
