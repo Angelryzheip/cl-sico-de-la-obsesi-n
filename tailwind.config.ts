@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        pumas: {
+          gold: "hsl(var(--pumas-gold))",
+          blue: "hsl(var(--pumas-blue))",
+        },
+        cruzazul: {
+          blue: "hsl(var(--cruzazul-blue))",
+          light: "hsl(var(--cruzazul-light))",
+        },
+        fire: {
+          red: "hsl(var(--fire-red))",
+          orange: "hsl(var(--fire-orange))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
